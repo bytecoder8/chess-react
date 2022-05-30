@@ -1,11 +1,12 @@
 import './App.css'
+import { BoardComponent } from './components/BoardComponent'
 
 
 function App() {
 
   return (
     <div className="App">
-      <h1>Chess</h1>
+      <BoardComponent />
     </div>
   )
 }
